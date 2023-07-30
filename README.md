@@ -4,7 +4,7 @@ Testing leptos application compile times with different scenarios for the `view!
 
 ## debug builds
 
-Results of changing a string inside the critical view! macro in app.rs and re-running `trunk serve` (incremental debug build) or `trunk serve --release` after the app was already build before:
+Results of changing a string inside the critical view! macro in app.rs and re-running `trunk serve` (incremental debug build) or `trunk serve --release` (incremental release build) after the app was already build before:
 
 | test                                   | debug | release |
 |----------------------------------------|-------|---------|
